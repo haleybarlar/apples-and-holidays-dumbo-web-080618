@@ -66,7 +66,6 @@ holiday_hash.collect do |season, holiday|
   holiday.select do |holiday, supply|
     supply.include?("BBQ")
     end
-    supply.keys.flatten
   end
 end
 
